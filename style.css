@@ -68,7 +68,7 @@ body {
         
         .proyek img {
             max-width: 100%;            /* Membuat gambar responsif */
-            height: 800px;               /* Mempertahankan rasio aspek */
+            height: 600px;               /* Mempertahankan rasio aspek */
             border-radius: 4px;         /* Membuat sudut gambar lebih bulat */
         }
         
