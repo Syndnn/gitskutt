@@ -1,0 +1,175 @@
+body {
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    .bg-header {
+        background-image: url('bg1.jpeg'); /* Ganti dengan gambar latar belakang Anda */
+        background-size: cover;
+        background-position: center;
+        color: white;
+        text-align: center;                /* Mengatur teks agar berada di tengah */
+        padding: 100px 20px;              /* Menjaga padding di atas dan bawah */
+        padding-top: 150px;               /* Menambahkan ruang lebih di atas */
+        height: 60vh;                     /* Mengatur tinggi menjadi 60% dari tinggi viewport */
+        width: 100%;                      /* Lebar penuh */
+        box-sizing: border-box;           /* Menambahkan padding ke dalam ukuran total */
+    }
+    
+        
+        nav {
+            background-color: #333;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        section {
+            padding: 20px;
+            margin: 10px;
+        }
+        
+        #proyek {
+            background-color: #f9f9f9;  /* Warna latar belakang untuk bagian proyek */
+            padding: 40px 20px;         /* Menambahkan ruang di dalam section */
+            margin: 20px 0;             /* Menambahkan margin atas dan bawah */
+            text-align: center;          /* Mengatur teks agar berada di tengah */
+        }
+        
+        #proyek h2 {
+            font-size: 2em;              /* Ukuran font untuk judul utama */
+            margin-bottom: 20px;        /* Ruang di bawah judul */
+        }
+        
+        .proyek {
+            background: white;          /* Warna latar belakang untuk masing-masing proyek */
+            border: 1px solid #ddd;     /* Garis batas di sekitar proyek */
+            border-radius: 8px;         /* Membuat sudut lebih bulat */
+            padding: 20px;              /* Ruang di dalam proyek */
+            margin: 20px 0;             /* Jarak antara proyek */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+            display: inline-block;       /* Menampilkan proyek dalam baris */
+            width: calc(45% - 40px);     /* Mengatur lebar proyek agar responsif */
+            vertical-align: top;         /* Menjaga agar proyek tetap sejajar */
+        }
+        
+        .proyek img {
+            max-width: 100%;            /* Membuat gambar responsif */
+            height: 800px;               /* Mempertahankan rasio aspek */
+            border-radius: 4px;         /* Membuat sudut gambar lebih bulat */
+        }
+        
+        .proyek h3 {
+            font-size: 2em;              /* Ukuran font untuk judul utama */
+            margin-bottom: 20px;        /* Ruang di bawah judul */
+        }
+        
+        .proyek {
+            background: white;          /* Warna latar belakang untuk masing-masing proyek */
+            border: 1px solid #ddd;     /* Garis batas di sekitar proyek */
+            border-radius: 8px;         /* Membuat sudut lebih bulat */
+            padding: 20px;              /* Ruang di dalam proyek */
+            margin: 20px 0;             /* Jarak antara proyek */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+            display: inline-block;       /* Menampilkan proyek dalam baris */
+            width: calc(45% - 40px);     /* Mengatur lebar proyek agar responsif */
+            vertical-align: top;         /* Menjaga agar proyek tetap sejajar */
+        }
+        
+        
+        
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        px 20px; /* Jarak dalam header */
+    }
+    
+    h1, p {
+        margin: 0;
+    }
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image:url(bg1.jpeg);
+    background-color: #cccccc;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav {
+    background-color: #333;  /* Warna latar belakang untuk navigasi */
+    text-align: center;       /* Mengatur teks di dalam navigasi agar berada di tengah */
+    padding: 10px 0;         /* Menambahkan ruang atas dan bawah */
+}
+
+nav ul {
+    list-style-type: none;    /* Menghapus titik di depan item */
+    padding: 0;               /* Menghapus padding default */
+    margin: 0;                /* Menghapus margin default */
+}
+
+nav ul li {
+    display: inline-block;     /* Menggunakan inline-block untuk mengatur item dalam baris */
+    margin-right: 15px;       /* Jarak antara item */
+}
+
+nav ul li a {
+    color: white;             /* Warna teks */
+    text-decoration: none;     /* Menghapus garis bawah */
+    padding: 5px 15px;        /* Menambahkan ruang di sekitar tautan */
+    transition: background-color 0.3s; /* Efek transisi untuk hover */
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Warna latar belakang saat hover */
+}
+
+.proyek {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.instagram-logo {
+    width: 24px; /* Atur lebar logo */
+    height: auto; /* Menjaga rasio aspek */
+    vertical-align: middle; /* Menjaga agar logo sejajar dengan teks */
+    margin-left: 5px; /* Jarak antara teks dan logo */
+}
